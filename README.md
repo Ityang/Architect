@@ -10,5 +10,18 @@ Android 面试题
 
 ## Android 
 
+[Activity问题相关](https://github.com/Ityang/Architect/blob/main/Android/Activity.md)
 
+[JVM与Dalvik](https://github.com/Ityang/Architect/blob/main/Android/JVM%E4%B8%8EDalvik.md)
 
+[View绘制](https://github.com/Ityang/Architect/blob/main/Android/View%E7%BB%98%E5%88%B6.md)
+
+[Handler问题相关](https://github.com/Ityang/Architect/blob/main/Android/Handler.md)
+
+[Binder问题相关](https://github.com/Ityang/Architect/blob/main/Android/Binder.md)
+
+### 性能优化
+
+[启动优化](https://github.com/Ityang/Architect/blob/main/Android/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E5%90%AF%E5%8A%A8%E4%BC%98%E5%8C%96.md)
+
+[性能优化](https://github.com/Ityang/Architect/blob/main/Android/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md)
