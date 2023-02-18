@@ -18,11 +18,17 @@
 
 [View绘制](https://github.com/Ityang/Architect/blob/main/Android/View%E7%BB%98%E5%88%B6.md)
 
+[事件分发](https://github.com/Ityang/Architect/blob/main/Android/%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91.md)
+
+[类加载机制](https://github.com/Ityang/Architect/blob/main/Android/JVM%E4%B8%8EDalvik.md)
+
 [Handler问题相关](https://github.com/Ityang/Architect/blob/main/Android/Handler.md)
 
 [Binder问题相关](https://github.com/Ityang/Architect/blob/main/Android/Binder.md)
 
 [SharedPreference 相关面试题]()
+
+[MVC、MVP、MVVM、MVI对比](https://github.com/Ityang/Architect/blob/main/Android/MVC%E3%80%81MVP%E3%80%81MVVM.md)
 
 ### 性能优化
 
@@ -32,7 +38,11 @@
 
 ### Jetpack
 
+[Databinding]()
 
+[Lifecycle]()
+
+[StartUp]()
 
 ### 第三方SDK
 
@@ -47,6 +57,8 @@
 [LeakCanary]()
 
 [ARouter]()
+
+[RxJava]()
 
 ## 算法
 
