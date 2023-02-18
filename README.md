@@ -10,8 +10,6 @@
 
 [volatile]()
 
-
-
 ## Android 
 
 [Activity问题相关](https://github.com/Ityang/Architect/blob/main/Android/Activity.md)
@@ -62,4 +60,4 @@
 
 ## 设计模式
 
-[设计模式概述]()
+[设计模式概述](https://github.com/Ityang/Architect/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%A6%82%E8%BF%B0.md)
