@@ -22,6 +22,8 @@
 
 [Binder问题相关](https://github.com/Ityang/Architect/blob/main/Android/Binder.md)
 
+[SharedPreference 相关面试题]()
+
 ### 性能优化
 
 [启动优化](https://github.com/Ityang/Architect/blob/main/Android/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E5%90%AF%E5%8A%A8%E4%BC%98%E5%8C%96.md)
@@ -44,6 +46,8 @@
 
 [LeakCanary]()
 
+[ARouter]()
+
 ## 算法
 
 [排序算法-堆排序](https://github.com/Ityang/Architect/blob/main/%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95-%E5%A0%86%E6%8E%92%E5%BA%8F.md)
@@ -52,11 +56,11 @@
 
 ## 数据结构
 
-[数据结构概述]()
+[数据结构概述](https://github.com/Ityang/Architect/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%A6%82%E8%BF%B0.md)
 
 [HanshMap相关面试](https://github.com/Ityang/Architect/blob/main/Java/HashMap%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95.md)
 
-
+[ArrayList扩容机制原理](https://github.com/Ityang/Architect/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/ArrayList%E6%89%A9%E5%AE%B9%E6%9C%BA%E5%88%B6%E5%8E%9F%E7%90%86.md)
 
 ## 设计模式
 
