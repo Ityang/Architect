@@ -18,6 +18,8 @@
 
 [Activity问题相关](https://github.com/Ityang/Architect/blob/main/Android/Activity.md)
 
+[Service问题相关]()
+
 [JVM与Dalvik](https://github.com/Ityang/Architect/blob/main/Android/JVM%E4%B8%8EDalvik.md)
 
 [View绘制](https://github.com/Ityang/Architect/blob/main/Android/View%E7%BB%98%E5%88%B6.md)
@@ -35,6 +37,8 @@
 [MVC、MVP、MVVM、MVI对比](https://github.com/Ityang/Architect/blob/main/Android/MVC%E3%80%81MVP%E3%80%81MVVM.md)
 
 [屏幕适配]()
+
+[内存泄露问题相关]()
 
 ### 性能优化
 
@@ -72,8 +76,6 @@
 
 [排序算法-堆排序](https://github.com/Ityang/Architect/blob/main/%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95-%E5%A0%86%E6%8E%92%E5%BA%8F.md)
 
-
-
 ## 数据结构
 
 [数据结构概述](https://github.com/Ityang/Architect/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%A6%82%E8%BF%B0.md)
@@ -87,3 +89,9 @@
 ## 设计模式
 
 [设计模式概述](https://github.com/Ityang/Architect/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%A6%82%E8%BF%B0.md)
+
+## 网络
+
+[http 和 https 的区别]()
+
+[三次握手、四次挥手]()
