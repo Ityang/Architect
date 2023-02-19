@@ -10,6 +10,10 @@
 
 [volatile]()
 
+[JAVA基础面试]()
+
+[多线程面试问题]()
+
 ## Android 
 
 [Activity问题相关](https://github.com/Ityang/Architect/blob/main/Android/Activity.md)
@@ -29,6 +33,8 @@
 [SharedPreference 相关面试题]()
 
 [MVC、MVP、MVVM、MVI对比](https://github.com/Ityang/Architect/blob/main/Android/MVC%E3%80%81MVP%E3%80%81MVVM.md)
+
+[屏幕适配]()
 
 ### 性能优化
 
