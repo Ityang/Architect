@@ -4,23 +4,17 @@
 
 View的绘制，有三个步骤：测量（measure），布局（layout），绘制（draw）, 从DecorView自上而下遍历整个View树，注意是所有View执行完一个步骤后，再进行下一步，而不是一个View执行完所有步骤再遍历下一个View。
 
-
-
 各步骤的主要工作：
 
 - Measure：测量视图大小。从顶层父View到子View递归调用measure方法，measure方法又回调OnMeasure。
 - Layout：确定View位置，进行页面布局。从顶层父View向子View的递归调用view.layout方法的过程，即父View根据上一步measure子View所得到的布局大小和布局参数，将子View放在合适的位置上。
 - 绘制视图。ViewRoot创建一个Canvas对象，然后调用OnDraw()。六个步骤：①、绘制视图的背景；②、保存画布的图层（Layer）；③、绘制View的内容；④、绘制View子视图，如果没有就不用；⑤、还原图层（Layer）；⑥、绘制滚动条。
 
-
-
-![View 绘制流程](../images/Android/View/View 绘制流程.png)
-
-
+![View 绘制流程](../../images/Android/View/View 绘制流程.png)
 
 #### 2. MeasureSpec是什么
 
-MeasureSpec是View中的内部类，基本都是二进制运算。由于int是32位的，用高两位表示mode，低30位表示size，
+MeasureSpec是Viw中的内部类，基本都是二进制运算。由于int是32位的，用高两位表示mode，低30位表示size，
 
 其中，Mode模式共分为三类：
 
@@ -38,15 +32,11 @@ MeasureSpec是View中的内部类，基本都是二进制运算。由于int是32
 
 MeasureSpec是View中的内部类，基本都是二进制运算。由于int是32位的，用高两位表示mode，低30位表示size，MODE_SHIFT = 30的作用是移位
 
-
-
 #### 4. 子View创建MeasureSpec创建规则是什么
 
 这个没啥好说的，理解+记忆这个表格，子View的MeasureSpec由父View根据自身的MeasureSpec和子View的LayoutParams来共同确定子View的MeasureSpec，注意，即使确定了子View的MeasureSpec并不一定决定了子View的大小，自定义View可以根据需要修改这个值，最终通过setMeasuredDimension（width,height）设置最终大小。
 
-![MeasureSpec的确定](../images/Android/View/MeasureSpec的确定.jpg)
-
-
+![MeasureSpec的确定](../../images/Android/View/MeasureSpec的确定.jpg)
 
 #### 5. 自定义 View wrap_content不起作用的原因
 
@@ -132,6 +122,8 @@ getMeasuredWidth()、getMeasuredHeight()必须在onMeasure之后使用才有效�
 #### 18. invalidate() 和 postInvalidate() 的区别
 
 二者都会出发刷新View，并且当这个View的可见性为VISIBLE的时候，View的onDraw()方法将会被调用，invalidate()方法在 UI 线程中调用，重绘当前 UI。postInvalidate() 方法在非 UI 线程中调用，通过Handler通知 UI 线程重绘。
+
+invadite()必须在主线程中调用，而postInvalidate()内部是由Handler的消息机制实现的，所以在任何线程都可以调用，但实时性没有invadite()强。但是一般为了保险起见，是使用postInvalidate()来刷新界面。
 
 #### 19. Requestlayout，onlayout，onDraw，DrawChild区别与联系
 
