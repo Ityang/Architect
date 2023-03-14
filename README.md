@@ -32,7 +32,7 @@
 
 [Binder问题相关](https://github.com/Ityang/Architect/blob/main/Android/Binder.md)
 
-[SharedPreference 相关面试题]()
+[SharedPreference 相关面试题](https://blog.csdn.net/ByteDanceTech/article/details/116810918?ops_request_misc=&request_id=&biz_id=102&utm_term=%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1%20ANR%20&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-3-116810918.first_rank_v2_pc_rank_v29&spm=1018.2226.3001.4187)
 
 [MVC、MVP、MVVM、MVI对比](https://github.com/Ityang/Architect/blob/main/Android/MVC%E3%80%81MVP%E3%80%81MVVM.md)
 
