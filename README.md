@@ -10,9 +10,9 @@
 
 [volatile]()
 
-[JAVA基础面试]()
+[JAVA基础面试](https://github.com/Ityang/Architect/blob/main/Java/JAVA%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95.md)
 
-[多线程面试问题]()
+[多线程面试问题](https://github.com/Ityang/Architect/blob/main/Java/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98.md)
 
 ## Android 
 
@@ -20,13 +20,13 @@
 
 [Service问题相关]()
 
-[JVM与Dalvik](https://github.com/Ityang/Architect/blob/main/Android/JVM%E4%B8%8EDalvik.md)
+[JVM与Dalvik](https://github.com/Ityang/Architect/blob/main/JVM/JVM%E4%B8%8EDalvik.md)
 
-[View绘制](https://github.com/Ityang/Architect/blob/main/Android/View%E7%BB%98%E5%88%B6.md)
+[View绘制](https://github.com/Ityang/Architect/blob/main/Android/View%E7%9B%B8%E5%85%B3/View%E7%BB%98%E5%88%B6.md)
 
-[事件分发](https://github.com/Ityang/Architect/blob/main/Android/%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91.md)
+[事件分发](https://github.com/Ityang/Architect/blob/main/Android/View%E7%9B%B8%E5%85%B3/%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91.md)
 
-[类加载机制](https://github.com/Ityang/Architect/blob/main/Android/JVM%E4%B8%8EDalvik.md)
+[类加载机制](https://github.com/Ityang/Architect/blob/main/JVM/JVM%E4%B8%8EDalvik.md)
 
 [Handler问题相关](https://github.com/Ityang/Architect/blob/main/Android/Handler.md)
 
@@ -80,11 +80,11 @@
 
 [数据结构概述](https://github.com/Ityang/Architect/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%A6%82%E8%BF%B0.md)
 
-[HanshMap相关面试](https://github.com/Ityang/Architect/blob/main/Java/HashMap%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95.md)
+[HanshMap相关面试](https://github.com/Ityang/Architect/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/HashMap%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95.md)
 
 [ArrayList扩容机制原理](https://github.com/Ityang/Architect/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/ArrayList%E6%89%A9%E5%AE%B9%E6%9C%BA%E5%88%B6%E5%8E%9F%E7%90%86.md)
 
-[数据结构相关面试问题]()
+[数据结构相关面试问题](https://github.com/Ityang/Architect/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98.md)
 
 ## 设计模式
 
@@ -92,6 +92,6 @@
 
 ## 网络
 
-[http 和 https 的区别]()
+[http 和 https 的区别](https://github.com/Ityang/Architect/blob/main/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/http%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 
-[三次握手、四次挥手]()
+[三次握手、四次挥手](https://github.com/Ityang/Architect/blob/main/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/http%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98.md)
