@@ -89,4 +89,4 @@ JDK1.8是 数组 + 链表 + 红黑树，每个数据单元都是一个Node结构
 
 1. https://blog.csdn.net/weixin_32265569/article/details/108481327
 2. https://www.bilibili.com/video/BV1Qk4y1672n?spm_id_from=333.999.0.0
-
+3. [图解ConcurrentHashMap](https://juejin.cn/post/6844903520957644808)

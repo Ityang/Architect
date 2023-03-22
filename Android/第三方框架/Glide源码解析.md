@@ -12,7 +12,7 @@
 ### 1. Glide 如何管理生命周期
 
 1. Glide在加载绑定了Activity的生命周期。
-2. 在Activity内新建一个无UI的Fragment，这个特殊的Fragment持有一个Lifecycle。通过Lifecycle在Fragment关键生命周期通知RequestManger进行相关的操作。
+2. 在Activity内新建一个无UI的Fragment，这个特殊的Fragment持有一个  。通过Lifecycle在Fragment关键生命周期通知RequestManger进行相关的操作。
 3. 在生命周期onStart时继续加载，onStop时暂停加载，onDestory是停止加载任务和清除操作。
    
 
@@ -31,7 +31,7 @@
 
 若这些缓存都找不到，会从网络上加载图片。
 
-![图片加载过程](/Users/Mac/Documents/Document/架构师/Images/Android/Glide/图片加载过程.jpg)
+![图片加载过程](../../images/Android/Glide/图片加载过程.jpg)
 
 
 
