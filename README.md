@@ -36,7 +36,7 @@
 
 [MVC、MVP、MVVM、MVI对比](https://github.com/Ityang/Architect/blob/main/Android/MVC%E3%80%81MVP%E3%80%81MVVM.md)
 
-[屏幕适配]()
+[屏幕适配](https://juejin.cn/post/6999445137491230728)
 
 [内存泄露问题相关]()
 
