@@ -14,6 +14,8 @@
 
 [多线程面试问题](https://github.com/Ityang/Architect/blob/main/Java/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98.md)
 
+[线程池](https://github.com/Ityang/Architect/blob/main/Java/%E7%BA%BF%E7%A8%8B%E6%B1%A0.md)
+
 ## Android 
 
 [Activity问题相关](https://github.com/Ityang/Architect/blob/main/Android/Activity.md)
@@ -72,6 +74,22 @@
 
 [MMKV]()
 
+## Kotlin
+
+[Kotlin面试题](https://github.com/Ityang/Architect/blob/main/Kotlin/kotlin%E9%9D%A2%E8%AF%95.md)
+
+[协程](https://github.com/Ityang/Architect/blob/main/Kotlin/%E5%8D%8F%E7%A8%8B.md)
+
+[Flow](https://github.com/Ityang/Architect/blob/main/Kotlin/Flow.md)
+
+## Flutter
+
+[Dart基本语法面试](https://github.com/Ityang/Architect/blob/main/Flutter/Dart%20%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.md)
+
+[Flutter 生命周期]()
+
+[Flutter 与原生如何通信]()
+
 ## 算法
 
 [排序算法-堆排序](https://github.com/Ityang/Architect/blob/main/%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95-%E5%A0%86%E6%8E%92%E5%BA%8F.md)
@@ -89,6 +107,8 @@
 ## 设计模式
 
 [设计模式概述](https://github.com/Ityang/Architect/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%A6%82%E8%BF%B0.md)
+
+[单利设计模式](https://github.com/Ityang/Architect/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%8D%95%E4%BE%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
 
 ## 网络
 
