@@ -7,3 +7,5 @@
 [Java、Kotlin、Flutter、HarmonyOS多线程]()
 
  [Android原生（Java、Kotlin）、Flutter、HarmonyOS生命周期]()
+
+[Android原生（Java、Kotlin）、Flutter、HarmonyOS view的绘制]()
