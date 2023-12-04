@@ -92,7 +92,7 @@
 
 ## Harmony
 
-
+[Harmony工程目录结构](https://github.com/Ityang/Architect/blob/main/HarmonyOS/Harmony%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.md)
 
 ## FuckDog （日了狗系列）
 
