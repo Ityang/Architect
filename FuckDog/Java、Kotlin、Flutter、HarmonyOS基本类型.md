@@ -2,7 +2,7 @@
 
 ## 1. Java 数据类型
 
-### Java 基本数据类型
+### 基本数据类型
 
 整型（byte、short、int、long）、浮点型（float、double）、字符型（char）和布尔型（boolean）
 
@@ -98,7 +98,38 @@ Kotlin 的浮点数有两种表示形式。
 
 ## 3. Dart 数据类型
 
+Dart 语言常用的基本数据类型包括 Number、String、Boolean、List、Map
 
+### 基本类型
 
-## 4. TypeScript 数据类型
+#### 3.1 Number 类型
 
+Number 类型包括int和double都是最最基础的数字类型，int为整数，double为浮点数，double表示的是标准的64位浮点数，可使用`double.maxFinite`获取最大值。
+
+* int整型，取值范围 -2 ^ 53 ~ 2 ^ 53 - 1
+* double 浮点类型，64位长度的浮点型数据，即双精度浮点型。
+
+int 和 double 都是Number 类型的子类。
+
+#### 3.2 布尔类型
+
+Dart中布尔类型采用的是bool关键字来表示，与其他语言一样。使用说明：
+
+```
+bool b = false;
+print('bool b:$b');
+```
+
+#### 3.3 String 类型
+
+Dart中只有String字符串类型，没有实际的char字符类型，但是可以使用`String.chodUnitAt(index)`获取到指定下标的UniCode编码值，然后可以通过`String.fromCharCode(int)`方法将UniCode值转换为String类型。与其他语言的 String 类型一样。
+
+### 集合类型
+
+在集合类型中Dart和Java还是比较相似的，都是提供了List、Set和Map这三种集合类型。
+
+## 4. ArkTs 数据类型
+
+[HarmonyOS开发：ArkTs常见数据类型（一）](https://juejin.cn/post/7303368502177775654)
+
+[HarmonyOS开发：ArkTs常见数据类型（二）](https://juejin.cn/post/7304635710694670387)
