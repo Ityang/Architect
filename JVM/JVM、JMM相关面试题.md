@@ -8,7 +8,7 @@ jvm是指java虚拟机的内部结构模型，内部包括： 线程共享方法
 - Java 内存间的交互操作
 - Java 内存模型运行规则
 
-
+[再有人问你Java内存模型是什么，就把这篇文章发给他](https://blog.csdn.net/hollis_chuang/article/details/80880118)
 
 ## 垃圾回收算法（JVM）
 
