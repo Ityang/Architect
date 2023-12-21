@@ -4,7 +4,7 @@
 
 我就想找个2万块钱的工作而已...
 
-[Java、Kotlin、Flutter、HarmonyOS基本数据类型]()
+[Java、Kotlin、Flutter、HarmonyOS基本数据类型](https://github.com/Ityang/Architect/blob/main/FuckDog/Java%E3%80%81Kotlin%E3%80%81Flutter%E3%80%81HarmonyOS%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B.md)
 
 [Java、Kotlin、Flutter、HarmonyOS多线程]()
 
