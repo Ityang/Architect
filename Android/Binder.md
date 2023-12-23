@@ -2,6 +2,8 @@
 
 
 
+1. [ Binder 原理剖析](https://zhuanlan.zhihu.com/p/35519585)写的非常好
+
 
 
 - Android中进程和线程的关系,区别

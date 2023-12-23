@@ -1,5 +1,7 @@
 # Android 面试题
 
+所有文章均为从网络复制而来，没有一丁点原创。持续不断的发现好的文章，汇总到一起方便本人查阅。
+
 ## Java
 
 [String 为什么是不可变的](https://github.com/Ityang/Architect/blob/main/Java/String%20%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%8D%E5%8F%AF%E5%8F%98%E7%9A%84.md)
