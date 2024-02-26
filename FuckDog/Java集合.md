@@ -51,8 +51,10 @@ String被广泛用作许多java类的参数，例如网络连接、打开文件�
 
 **Map 接口：**
 
-- `HashMap`：基于哈希表实现的键值对集合，不保证顺序，允许键和值为 `null`。
-- `TreeMap`：基于红黑树实现的有序键值对集合，保证键有序。
+- `HashMap`：**线程不安全**，基于哈希表实现的键值对集合，提供快速的查找性能。不保证顺序，允许键和值为 `null`
+- `LinkedHashMap`：**线程不安全**，基于哈希表和双向链表的实现。它保留了插入顺序，也可以选择按照访问顺序进行排序。`LinkedHashMap`允许null键和null值。
+- `ConcurrentHashMap`：**线程安全**的`HashMap`实现。它采用分段锁机制，使得多个线程可以并发地读取和修改`ConcurrentHashMap`，而不需要同步整个map。它不保证顺序，允许null键和null值。
+- `TreeMap`：**线程不安全**，基于红黑树的实现，按照键的自然顺序或者自定义顺序进行排序。因此，它的键是有序的。`TreeMap`不允许null键，但允许null值。
 
 #### 1.2.1 ArrayList
 
@@ -299,3 +301,11 @@ for (String info : treeSet) {
 在此示例中，尽管添加了两次 "Java"，但由于 `TreeSet `的特性，重复元素不会被添加到集合中，因此只会输出一次 "Java"。另外，`TreeSet `会按照元素的自然顺序（字典序）进行排序，默认是`升序`。
 
 #### 1.2.8 HashMap
+
+
+
+#### 1.2.9 LinkedHashMap
+
+#### 1.2.10 ConcurrentHashMap
+
+#### 1.2.11 TreeMap
