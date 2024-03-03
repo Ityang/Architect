@@ -53,6 +53,7 @@ String被广泛用作许多java类的参数，例如网络连接、打开文件�
 
 - `HashMap`：**线程不安全**，基于哈希表实现的键值对集合，提供快速的查找性能。不保证顺序，允许键和值为 `null`
 - `LinkedHashMap`：**线程不安全**，基于哈希表和双向链表的实现。它保留了插入顺序，也可以选择按照访问顺序进行排序。`LinkedHashMap`允许null键和null值。
+- `HashTable`:**线程安全**
 - `ConcurrentHashMap`：**线程安全**的`HashMap`实现。它采用分段锁机制，使得多个线程可以并发地读取和修改`ConcurrentHashMap`，而不需要同步整个map。它不保证顺序，允许null键和null值。
 - `TreeMap`：**线程不安全**，基于红黑树的实现，按照键的自然顺序或者自定义顺序进行排序。因此，它的键是有序的。`TreeMap`不允许null键，但允许null值。
 
@@ -306,6 +307,8 @@ for (String info : treeSet) {
 
 #### 1.2.9 LinkedHashMap
 
-#### 1.2.10 ConcurrentHashMap
+#### 1.2.10 HashTable
 
-#### 1.2.11 TreeMap
+#### 1.2.11 ConcurrentHashMap
+
+#### 1.2.12 TreeMap
