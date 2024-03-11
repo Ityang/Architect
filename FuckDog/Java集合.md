@@ -582,20 +582,223 @@ Kotlin 集合类型：
 ### 2.1 ArrayList
 
 
+在 Kotlin 中，`ArrayList` 是一个可变列表，它实现了 `MutableList` 接口。它提供了动态数组的功能，可以根据需要动态增长或缩减其大小，并且可以通过索引访问列表中的元素。`ArrayList` 在 Kotlin 中常用于存储和操作一系列元素。
+
+#### 特点和功能：
+
+1. **可变性**：`ArrayList` 是可变的，可以向其中添加、删除和更新元素。
+2. **动态大小**：`ArrayList` 的大小可以根据需要动态增长或缩减，不需要预先指定大小。
+3. **索引访问**：可以通过索引来访问 `ArrayList` 中的元素，索引从 0 开始。
+4. **迭代器**：可以使用迭代器来遍历 `ArrayList` 中的元素，也可以使用 `for` 循环进行遍历。
+5. **Null 元素**：`ArrayList` 中可以包含 null 元素。
+6. **泛型支持**：`ArrayList` 支持泛型，因此可以指定存储的元素类型。如果不指定元素类型，则默认为 `Any?`，即可以存储任意类型的元素。
+
+示例：
+
+```
+// 创建一个空的 ArrayList
+val arrayList = ArrayList<String>()
+
+// 添加元素到 ArrayList
+arrayList.add("Java")
+arrayList.add("Kotlin")
+arrayList.add("Dart")
+
+// 访问元素
+println("第一个元素: ${arrayList[0]}")
+
+// 更新元素
+arrayList[1] = "ArkTs"
+
+// 删除元素
+arrayList.remove("Dart")
+
+// 遍历 ArrayList
+for (item in arrayList) {
+    println(item)
+}
+```
 
 ### 2.2 LinkedList
 
+在 Kotlin 中，`LinkedList` 是一个可变的链表实现，它实现了 `MutableList` 接口。与 `ArrayList` 不同，`LinkedList` 的内部实现是基于双向链表的，这意味着它具有一些与链表相关的特性，比如插入和删除元素的性能较高，但随机访问的性能较差。
 
+#### 特点和功能：
+
+1. **可变性**：`LinkedList` 是可变的，可以向其中添加、删除和更新元素。
+2. **基于链表的实现**：`LinkedList` 的内部实现是基于双向链表的，这意味着插入和删除元素的性能较好，时间复杂度为 O(1)，而随机访问的性能较差，时间复杂度为 O(n)。
+3. **迭代器**：可以使用迭代器来遍历 `LinkedList` 中的元素，也可以使用 `for` 循环进行遍历。
+4. **Null 元素**：`LinkedList` 中可以包含 null 元素。
+5. **泛型支持**：`LinkedList` 支持泛型，因此可以指定存储的元素类型。如果不指定元素类型，则默认为 `Any?`，即可以存储任意类型的元素。
+
+示例：
+
+```
+// 创建一个空的 LinkedList
+val linkedList = LinkedList<String>()
+
+// 添加元素到 LinkedList
+linkedList.add("Java")
+linkedList.add("Kotlin")
+linkedList.add("Dart")
+
+// 访问元素
+println("第一个元素:${linkedList.first}")
+
+// 更新元素
+linkedList[1] = "ArkTs"
+
+// 删除元素
+linkedList.remove("Dart")
+
+// 遍历 LinkedList
+for (item in linkedList) {
+    println(item)
+}
+```
 
 ### 2.3 HashSet
 
+在 Kotlin 中，`HashSet` 是一个可变集合，它实现了 `MutableSet` 接口。`HashSet` 基于哈希表实现，它不允许包含重复元素，并且不保证元素的顺序，即元素的插入顺序不会被保留。
 
+#### 特点和功能：
+
+1. **可变性**：`HashSet` 是可变的，可以向其中添加、删除和更新元素。
+2. **哈希表实现**：`HashSet` 的内部实现是基于哈希表的，这使得元素的查找、添加和删除等操作具有常数时间复杂度，即 O(1) 的时间复杂度（平均情况下）。
+3. **不允许重复元素**：`HashSet` 不允许包含重复的元素，如果尝试添加重复的元素，那么 `HashSet` 不会进行任何操作。
+4. **迭代器**：可以使用迭代器来遍历 `HashSet` 中的元素，也可以使用 `for` 循环进行遍历。由于 `HashSet` 不保证元素的顺序，因此遍历的顺序可能是不确定的。
+5. **Null 元素**：`HashSet` 中可以包含 null 元素，但只能包含一个。
+
+示例：
+
+```
+// 创建一个空的 HashSet
+val hashSet = HashSet<String>()
+
+// 添加元素到 HashSet
+hashSet.add("Java")
+hashSet.add("Kotlin")
+hashSet.add("Dart")
+hashSet.add("Kotlin") // 尝试添加重复元素，不会进行任何操作
+
+// 删除元素
+hashSet.remove("Dart")
+
+// 遍历 HashSet
+for (item in hashSet) {
+    println(item)
+}
+```
 
 ### 2.4 LinkedHashSet
 
+在 Kotlin 中，`LinkedHashSet` 是 `java.util.LinkedHashSet` 的 Kotlin 接口，它实现了 `MutableSet` 接口。`LinkedHashSet` 继承自 `HashSet`，但与 `HashSet` 不同的是，它保留了元素的插入顺序。这意味着当遍历 `LinkedHashSet` 时，元素的顺序与它们被插入的顺序相同。
+
+#### 特点和功能：
+
+1. **可变性**：`LinkedHashSet` 是可变的，可以向其中添加、删除和更新元素。
+2. **插入顺序**：`LinkedHashSet` 保留了元素的插入顺序，即遍历 `LinkedHashSet` 时，元素的顺序与它们被插入的顺序相同。
+3. **基于链表的实现**：`LinkedHashSet` 的内部实现是基于链表和哈希表的，它使用哈希表来实现元素的快速查找，并使用链表来维护元素的插入顺序。
+4. **迭代器**：可以使用迭代器来遍历 `LinkedHashSet` 中的元素，也可以使用 `for` 循环进行遍历。由于 `LinkedHashSet` 保留了插入顺序，因此遍历时元素的顺序与它们被插入的顺序相同。
+5. **Null 元素**：`LinkedHashSet` 中可以包含 null 元素，但只能包含一个。
+
+示例：
+
+```
+// 创建一个空的 LinkedHashSet
+val linkedHashSet = LinkedHashSet<String>()
+
+// 添加元素到 LinkedHashSet
+linkedHashSet.add("Java")
+linkedHashSet.add("Kotlin")
+linkedHashSet.add("Dart")
+
+// 删除元素
+linkedHashSet.remove("Kotlin")
+
+// 遍历 LinkedHashSet
+for (item in linkedHashSet) {
+   println(item)
+}
+```
+
+### 2.5 HashMap
+
+在 Kotlin 中，`HashMap` 是一个可变的哈希表实现，它实现了 `MutableMap` 接口。`HashMap` 使用哈希表来存储键值对，并且不保证键值对的顺序，即键值对的插入顺序不会被保留。
+
+#### 特点和功能：
+
+1. **可变性**：`HashMap` 是可变的，可以向其中添加、删除和更新键值对。
+2. **哈希表实现**：`HashMap` 的内部实现是基于哈希表的，这使得键值对的查找、添加和删除等操作具有常数时间复杂度，即 O(1) 的时间复杂度（平均情况下）。
+3. **不保证顺序**：`HashMap` 不保证键值对的顺序，即键值对的插入顺序不会被保留。如果需要保留插入顺序，可以使用 `LinkedHashMap`。
+4. **迭代器**：可以使用迭代器来遍历 `HashMap` 中的键值对，也可以使用 `for` 循环进行遍历。由于 `HashMap` 不保证顺序，因此遍历时键值对的顺序可能是不确定的。
+5. **Null 键和值**：`HashMap` 中可以包含 null 键和值，但只能包含一个 null 键和多个 null 值。
+
+示例：
+
+```
+// 创建一个空的 HashMap
+val hashMap = HashMap<String, Int>()
+
+// 添加键值对到 HashMap
+hashMap["Java"] = 10
+hashMap["Kotlin"] = 20
+hashMap["Dart"] = 30
+
+// 访问键值对
+println("'Java': ${hashMap["Java"]}")
+
+// 更新键值对
+hashMap["Kotlin"] = 25
+
+// 删除键值对
+hashMap.remove("Dart")
+
+// 遍历 HashMap
+for ((key, value) in hashMap) {
+    println("$key -> $value")
+}
+```
+
+### 2.6 LinkedHashMap
+
+在 Kotlin 中，`LinkedHashMap` 是 `java.util.LinkedHashMap` 的 Kotlin 接口，它实现了 `MutableMap` 接口。`LinkedHashMap` 继承自 `HashMap`，但与 `HashMap` 不同的是，`LinkedHashMap` 保留了键值对的插入顺序。这意味着当遍历 `LinkedHashMap` 时，键值对的顺序与它们被插入的顺序相同。
+
+#### 特点和功能：
+
+1. **可变性**：`LinkedHashMap` 是可变的，可以向其中添加、删除和更新键值对。
+2. **保留插入顺序**：`LinkedHashMap` 保留了键值对的插入顺序，即遍历 `LinkedHashMap` 时，键值对的顺序与它们被插入的顺序相同。
+3. **基于链表的实现**：`LinkedHashMap` 的内部实现是基于链表和哈希表的，它使用哈希表来实现键值对的快速查找，并使用链表来维护键值对的插入顺序。
+4. **迭代器**：可以使用迭代器来遍历 `LinkedHashMap` 中的键值对，也可以使用 `for` 循环进行遍历。由于 `LinkedHashMap` 保留了插入顺序，因此遍历时键值对的顺序与它们被插入的顺序相同。
+5. **Null 键和值**：`LinkedHashMap` 中可以包含 null 键和值，但只能包含一个 null 键和多个 null 值。
+
+示例：
+
+```
+// 创建一个空的 LinkedHashMap
+val linkedHashMap = LinkedHashMap<String, Int>()
+
+// 添加键值对到 LinkedHashMap
+linkedHashMap["Java"] = 10
+linkedHashMap["Kotlin"] = 20
+linkedHashMap["Dart"] = 30
+
+// 访问键值对
+println(" 'Java': ${linkedHashMap["Java"]}")
+
+// 更新键值对
+linkedHashMap["Kotlin"] = 25
+
+// 删除键值对
+linkedHashMap.remove("Dart")
+
+// 遍历 LinkedHashMap
+for ((key, value) in linkedHashMap) {
+    println("$key -> $value")
+}
+```
 
 
-### 2.5 SortedSet
 
 ##  三. Dart 集合
 
