@@ -893,3 +893,172 @@ mMap.forEach((key, value) {
 ```
 
 ## 四. ArkTs集合
+
+
+
+### 4.1 数组Arraay
+
+在 TypeScript 中，数组（Array）是一种数据结构，用于存储多个元素。与 JavaScript 类似，TypeScript 的数组可以包含任意类型的元素，且可以动态增加或删除元素。
+
+#### 特点和功能：
+
+1. `TypeScript` 的数组支持各种方法来进行操作，如 `push()`、`pop()`、`shift()`、`unshift()`、`splice()` 等，用于在数组中添加、删除或替换元素，以及其他各种操作。
+2. **遍历数组**： 可以使用 `for` 循环、`forEach()` 方法、`for...of` 循环等方式遍历数组中的元素。
+3. **泛型数组**： `TypeScript` 支持泛型，因此可以创建泛型数组，例如 `Array<number>` 表示元素类型为数字的数组。
+
+示例：
+
+```
+// 声明一个字符类型的数组
+let string: string[] = ["Java", "Kotlin", "Dart"];
+// 声明一个数字类型的数组
+let numbers: number[] = [1, 2, 3, 4, 5];
+
+// 添加字符到数组
+string.push("TypeScript");
+// 添加元素到数组
+numbers.push(6);
+
+// 删除数组中的字符
+string.pop();
+// 删除数组中的元素
+numbers.pop();
+
+// 遍历数组
+for (let i = 0; i < string.length; i++) {
+  console.log(string[i]);
+}
+
+// 使用 forEach 方法遍历数
+string.forEach(character => {
+  console.log(character);
+});
+
+// 使用 for...of 遍历数组
+for (let character of string) {
+  console.log(character);
+}
+```
+
+### 4.2 Tuple
+
+在 TypeScript 中，元组（Tuple）是一种有序的、固定长度的数组，它可以包含不同类型的元素。与普通数组不同，元组可以指定每个位置的元素类型，并且元组中的元素数量是固定的。
+
+#### 特点和功能：
+
+1. **元组的使用场景**： 元组通常用于表示固定数量和类型的数据集合，例如表示坐标、表示日期、表示返回多个值的函数等场景。
+2. **访问越界元素**： TypeScript 允许访问元组中的越界元素，但需要谨慎使用，因为这可能会导致运行时错误。
+
+示例：
+
+```
+// 声明一个元组并初始化
+let bookInfo: [number, string,number] = [1, "Java",55];
+
+// 访问元组中的元素
+console.log("bookInfo ID:", bookInfo[0]); // 输出 1
+console.log("bookInfo Name:", bookInfo[1]); // 输出 "Java"
+console.log("bookInfo Price:", bookInfo[2]); // 输出 55
+
+// 使用解构获取元组中的元素
+let [id, name,price] = bookInfo;
+console.log("bookInfo ID:", id); // 输出 1
+console.log("bookInfo Name:", name); // 输出 "Java"
+console.log("bookInfo Price:", price); // 输出 55
+```
+
+
+
+### 4.3 Set
+
+在 `TypeScript `中，可以使用原生的 `JavaScript` Set 类型来表示集合。Set 是一种集合数据结构，它存储一组唯一的值，且不允许重复。与数组不同，Set 中的元素没有顺序。
+
+#### 特点和功能：
+
+1. **Set 的操作方法**：
+   - `add(value: T)`: 向 Set 中添加一个值。
+   - `delete(value: T)`: 从 Set 中删除一个值。
+   - `has(value: T)`: 检查 Set 中是否存在某个值。
+   - `clear()`: 清空 Set 中的所有值。
+2. **Set 的遍历**：
+   - 可以使用 `for...of` 循环遍历 Set 中的元素。
+   - 可以使用 `forEach()` 方法遍历 Set 中的元素。
+3. **Set 中的元素唯一性**： Set 中的元素是唯一的，不允许重复。当向 Set 中添加重复的元素时，Set 不会添加重复的值。
+
+示例：
+
+```
+// 声明并初始化一个 Set
+let infoSet: Set<string> = new Set(["Java", "Kotlin", "Dart"]);
+
+// 添加元素到 Set
+infoSet.add("TypeScript");
+
+// 删除 Set 中的元素
+infoSet.delete("Dart");
+
+// 检查 Set 中是否存在某个值
+console.log("是否存在:", infoSet.has("Dart")); // 输出 true
+
+// 遍历 Set
+for (let num of infoSet) {
+  console.log(num);
+}
+
+// 使用 forEach 方法遍历 Set
+infoSet.forEach(element => {
+  console.log(element);
+});
+```
+
+### 4.4 Map
+
+在 TypeScript 中，可以使用原生的 JavaScript Map 类型来表示映射或字典数据结构。Map 是一种键值对的集合，其中的键是唯一的，而值可以重复。
+
+#### 特点和功能：
+
+1. **Map 的操作方法**：
+   - `set(key: K, value: V)`: 向 Map 中添加一个键值对。
+   - `get(key: K)`: 获取指定键对应的值。
+   - `has(key: K)`: 检查 Map 中是否存在指定的键。
+   - `delete(key: K)`: 删除指定键对应的键值对。
+   - `clear()`: 清空 Map 中的所有键值对。
+   - `size`: 返回 Map 中键值对的数量。
+2. **Map 的遍历**：
+   - 可以使用 `for...of` 循环遍历 Map 中的键值对。
+   - 可以使用 `forEach()` 方法遍历 Map 中的键值对。
+3. **Map 中的键的唯一性**： Map 中的键是唯一的，如果向 Map 中添加已存在的键，它会更新对应的值。
+
+示例：
+
+```
+// 声明并初始化一个 Map
+let infoMaps: Map<number, string> = new Map([
+  [0, "Java"],
+  [10, "Kotlin"],
+  [1, "Dart"]
+]);
+
+// 添加键值对到 Map
+infoMaps.set(2, "TypeScript");s
+
+// 获取 Map 中的值
+console.log("获取 Map 中的值:", infoMaps.get(0));
+
+// 检查 Map 中是否存在某个键
+console.log("检查 Map 中是否存在某个键:", infoMaps.has(1)); // 输出 true
+
+// 删除 Map 中的键值对
+infoMaps.delete(10);
+
+// 遍历 Map
+for (let [num, name] of infoMaps) {
+  console.log(`${num} -> ${name}`);
+}
+
+// 使用 forEach 方法遍历 Map
+infoMaps.forEach((value, key) => {
+  console.log(`${key} -> ${value}`);
+});
+```
+
