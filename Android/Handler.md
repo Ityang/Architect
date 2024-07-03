@@ -1,5 +1,9 @@
 # Handler机制
 
+1. [如何应对Android面试官->Handler原理解析，玩转同步屏障](https://juejin.cn/post/7342420969879175219?searchId=20240703151722A28B3E2E65592C1088B8)
+
+2. [同步屏障](https://juejin.cn/post/7336973329428561929?searchId=20240703151722A28B3E2E65592C1088B8)
+
 ### 一、Handler 机制
 
 #### 1.1 简述

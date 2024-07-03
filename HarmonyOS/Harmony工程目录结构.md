@@ -16,4 +16,4 @@
 在AppScope，其中有resources文件夹和配置文件app.json5。AppScope>resources>base中包含element和media两个文件夹，
 
 - 其中element文件夹主要存放公共的字符串、布局文件等资源。
-- media存放全局公共的多媒体资源文件。
+- media存放全局公共的多媒体资源文件s。
