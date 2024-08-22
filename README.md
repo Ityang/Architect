@@ -8,10 +8,6 @@
 
 [CAS原理以及CAS带来的三大问题](https://github.com/Ityang/Architect/blob/main/Java/CAS%E5%8E%9F%E7%90%86%E4%BB%A5%E5%8F%8ACAS%E5%B8%A6%E6%9D%A5%E7%9A%84%E4%B8%89%E5%A4%A7%E9%97%AE%E9%A2%98.md)
 
-[synchronized]()
-
-[volatile]()
-
 [JAVA基础面试](https://github.com/Ityang/Architect/blob/main/Java/JAVA%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95.md)
 
 [多线程面试问题](https://github.com/Ityang/Architect/blob/main/Java/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98.md)
