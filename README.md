@@ -50,13 +50,11 @@
 
 ### 第三方SDK
 
-[OKHttp](https://github.com/Ityang/Architect/blob/main/Android/06.%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6/02.OKHttp%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md
+[OKHttp](https://github.com/Ityang/Architect/blob/main/Android/06.%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6/02.OKHttp%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md)
 
 [Glide](https://github.com/Ityang/Architect/blob/main/Android/06.%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6/03.Glide%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md)
 
 [EventBus](https://github.com/Ityang/Architect/blob/main/Android/06.%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6/01.EventBus%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md)
-
-[LeakCanary]()
 
 [ARouter](https://github.com/Ityang/Architect/blob/main/Android/06.%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6/04.ARouter%20%E5%8E%9F%E7%90%86%E9%9D%A2%E8%AF%95.md)
 
