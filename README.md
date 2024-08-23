@@ -16,61 +16,49 @@
 
 ## Android 
 
-[Activity问题相关](https://github.com/Ityang/Architect/blob/main/Android/Activity.md)
+[Activity问题相关](https://github.com/Ityang/Architect/blob/main/Android/01.%E5%9F%BA%E7%A1%80%E7%BB%84%E4%BB%B6/01.Activity%E9%9D%A2%E8%AF%95%E7%9B%B8%E5%85%B3.md)
 
-[Service问题相关]()
+[JVM与Dalvik](https://github.com/Ityang/Architect/blob/main/Java/JVM/JVM%E4%B8%8EDalvik.md)
 
-[JVM与Dalvik](https://github.com/Ityang/Architect/blob/main/JVM/JVM%E4%B8%8EDalvik.md)
+[View绘制](https://github.com/Ityang/Architect/blob/main/Android/02.View%E7%9B%B8%E5%85%B3/01.View%E7%BB%98%E5%88%B6.md)
 
-[View绘制](https://github.com/Ityang/Architect/blob/main/Android/View%E7%9B%B8%E5%85%B3/View%E7%BB%98%E5%88%B6.md)
+[事件分发](https://github.com/Ityang/Architect/blob/main/Android/02.View%E7%9B%B8%E5%85%B3/02.%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91.md)
 
-[事件分发](https://github.com/Ityang/Architect/blob/main/Android/View%E7%9B%B8%E5%85%B3/%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91.md)
+[Handler问题相关](https://github.com/Ityang/Architect/blob/main/Android/03.Handler%E6%9C%BA%E5%88%B6/01.Handler.md)
 
-[类加载机制](https://github.com/Ityang/Architect/blob/main/JVM/JVM%E4%B8%8EDalvik.md)
+[Binder问题相关](https://github.com/Ityang/Architect/blob/main/Android/07.Binder%E6%9C%BA%E5%88%B6/01.Binder.md)
 
-[Handler问题相关](https://github.com/Ityang/Architect/blob/main/Android/Handler.md)
+[SharedPreference 相关面试题](https://github.com/Ityang/Architect/blob/main/Android/08.%E6%97%A0%E5%88%86%E7%B1%BB/02.SharedPreference%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%A2%98.md)
 
-[Binder问题相关](https://github.com/Ityang/Architect/blob/main/Android/Binder.md)
+[MVC、MVP、MVVM、MVI对比](https://github.com/Ityang/Architect/blob/main/Android/08.%E6%97%A0%E5%88%86%E7%B1%BB/03.MVC%E3%80%81MVP%E3%80%81MVVM.md)
 
-[SharedPreference 相关面试题](https://blog.csdn.net/ByteDanceTech/article/details/116810918?ops_request_misc=&request_id=&biz_id=102&utm_term=%E4%BB%8A%E6%97%A5%E5%A4%B4%E6%9D%A1%20ANR%20&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-3-116810918.first_rank_v2_pc_rank_v29&spm=1018.2226.3001.4187)
-
-[MVC、MVP、MVVM、MVI对比](https://github.com/Ityang/Architect/blob/main/Android/MVC%E3%80%81MVP%E3%80%81MVVM.md)
-
-[屏幕适配](https://juejin.cn/post/6999445137491230728)
-
-[内存泄露问题相关]()
+[屏幕适配](https://github.com/Ityang/Architect/blob/main/Android/08.%E6%97%A0%E5%88%86%E7%B1%BB/01.%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D.md)
 
 ### 性能优化
 
-[启动优化](https://github.com/Ityang/Architect/blob/main/Android/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E5%90%AF%E5%8A%A8%E4%BC%98%E5%8C%96.md)
+[启动优化](https://github.com/Ityang/Architect/blob/main/Android/04.%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/01.%E5%90%AF%E5%8A%A8%E4%BC%98%E5%8C%96.md)
 
-[性能优化](https://github.com/Ityang/Architect/blob/main/Android/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md)
+[性能优化](https://github.com/Ityang/Architect/blob/main/Android/04.%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/02.%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.md)
+
+[ANR异常处理](https://github.com/Ityang/Architect/blob/main/Android/04.%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/03.ANR.md)
 
 ### Jetpack
 
-[Databinding]()
+[Lifecycle面试](https://github.com/Ityang/Architect/blob/main/Android/05.Jetpack/01.Lifecycle%E9%9D%A2%E8%AF%95.md)
 
-[Lifecycle]()
-
-[StartUp]()
+[LiveData面试](https://github.com/Ityang/Architect/blob/main/Android/05.Jetpack/02.LiveData%20%E9%9D%A2%E8%AF%95.md)
 
 ### 第三方SDK
 
-[OKHttp](https://github.com/Ityang/Architect/blob/main/Android/%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6/OKHttp%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md)
+[OKHttp](https://github.com/Ityang/Architect/blob/main/Android/06.%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6/02.OKHttp%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md
 
-[Retrofit]()
+[Glide](https://github.com/Ityang/Architect/blob/main/Android/06.%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6/03.Glide%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md)
 
-[Glide](https://github.com/Ityang/Architect/blob/main/Android/%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6/Glide%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md)
-
-[EventBus](https://github.com/Ityang/Architect/blob/main/Android/%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6/EventBus%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md)
+[EventBus](https://github.com/Ityang/Architect/blob/main/Android/06.%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6/01.EventBus%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md)
 
 [LeakCanary]()
 
-[ARouter](https://github.com/Ityang/Architect/blob/main/Android/%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6/ARouter%20%E5%8E%9F%E7%90%86%E9%9D%A2%E8%AF%95.md)
-
-[RxJava]()
-
-[MMKV]()
+[ARouter](https://github.com/Ityang/Architect/blob/main/Android/06.%E7%AC%AC%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6/04.ARouter%20%E5%8E%9F%E7%90%86%E9%9D%A2%E8%AF%95.md)
 
 ## Kotlin
 
@@ -84,11 +72,9 @@
 
 ## Flutter
 
-[Dart基本语法面试](https://github.com/Ityang/Architect/blob/main/Flutter/Dart%20%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.md)
+[Dart基本语法面试](https://github.com/Ityang/Architect/blob/main/Flutter/01.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Dart%20%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95.md)
 
-[Flutter 生命周期]()
-
-[Flutter 与原生如何通信]()
+[Flutter 与原生如何通信](https://github.com/Ityang/Architect/blob/main/Flutter/01.%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/chnnal.md)
 
 ## Harmony
 
@@ -96,36 +82,26 @@
 
 ## FuckDog 
 
-[Java、Kotlin、Flutter、HarmonyOS基本数据类型]()
+[Java、Kotlin、Flutter、HarmonyOS基本数据类型](https://github.com/Ityang/Architect/blob/main/FuckDog/Java%E3%80%81Kotlin%E3%80%81Flutter%E3%80%81HarmonyOS%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B.md)
 
-[Java、Kotlin、Flutter、HarmonyOS多线程]()
-
- [Android原生（Java、Kotlin）、Flutter、HarmonyOS生命周期]()
-
-[Android原生（Java、Kotlin）、Flutter、HarmonyOS view的绘制]()
-
-## 算法
-
-[排序算法-堆排序](https://github.com/Ityang/Architect/blob/main/%E7%AE%97%E6%B3%95/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95-%E5%A0%86%E6%8E%92%E5%BA%8F.md)
+[Java、Kotlin、Flutter、HarmonyOS集合数据类型](https://github.com/Ityang/Architect/blob/main/FuckDog/Java%E3%80%81Kotlin%E3%80%81Flutter%E3%80%81HarmonyOS%E9%9B%86%E5%90%88%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
 
 ## 数据结构
 
-[数据结构概述](https://github.com/Ityang/Architect/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%A6%82%E8%BF%B0.md)
+[数据结构概述](https://github.com/Ityang/Architect/blob/main/%E7%AE%97%E6%B3%95/01.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/01.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%A6%82%E8%BF%B0.md)
 
-[HanshMap相关面试](https://github.com/Ityang/Architect/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/HashMap%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95.md)
+[HanshMap相关面试](https://github.com/Ityang/Architect/blob/main/%E7%AE%97%E6%B3%95/01.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/04.HashMap%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95.md)
 
-[ArrayList扩容机制原理](https://github.com/Ityang/Architect/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/ArrayList%E6%89%A9%E5%AE%B9%E6%9C%BA%E5%88%B6%E5%8E%9F%E7%90%86.md)
+[ArrayList扩容机制原理](https://github.com/Ityang/Architect/blob/main/%E7%AE%97%E6%B3%95/01.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/03.ArrayList%E6%89%A9%E5%AE%B9%E6%9C%BA%E5%88%B6%E5%8E%9F%E7%90%86.md)
 
-[数据结构相关面试问题](https://github.com/Ityang/Architect/blob/main/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98.md)
+[数据结构相关面试问题](https://github.com/Ityang/Architect/blob/main/%E7%AE%97%E6%B3%95/01.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/02.%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9B%B8%E5%85%B3%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98.md)
 
 ## 设计模式
 
-[00.设计模式概述](https://github.com/Ityang/Architect/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%A6%82%E8%BF%B0.md)
+[00.设计模式概述](https://github.com/Ityang/Architect/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/00.%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%A6%82%E8%BF%B0.md)
 
-[01.单例设计模式](https://github.com/Ityang/Architect/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%8D%95%E4%BE%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
+[01.单例设计模式](https://github.com/Ityang/Architect/blob/main/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/01.%E5%8D%95%E4%BE%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
 
 ## 网络
 
-[http 和 https 的区别](https://github.com/Ityang/Architect/blob/main/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/http%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98.md)
-
-[三次握手、四次挥手](https://github.com/Ityang/Architect/blob/main/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/http%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98.md)
+[http 和 https 的区别](https://github.com/Ityang/Architect/blob/main/%E7%BD%91%E7%BB%9C%E5%8D%8F%E8%AE%AE/02.http%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98.md)
